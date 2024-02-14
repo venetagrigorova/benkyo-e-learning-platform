@@ -1,0 +1,17 @@
+export const allowediFrameAttributes = [
+  'src',
+  'style',
+  'width',
+  'height',
+  'title',
+  'frameborder',
+  'allow',
+  'autoplay',
+  'clipboard-write',
+  'encrypted-media',
+  'gyroscope',
+  'picture-in-picture',
+  'allowfullscreen',
+  'order',
+  'orientation',
+];

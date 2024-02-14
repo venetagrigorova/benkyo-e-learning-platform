@@ -1,0 +1,62 @@
+{
+  "name": "e-learning-server",
+  "version": "1.0.0",
+  "description": "Server e-Learning platform",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon --delay 1000ms build/app.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/final-project-group/poodle-e-learning.git"
+  },
+  "keywords": [
+    "poodle",
+    "e-learning",
+    "server",
+    "telerik"
+  ],
+  "author": "Veneta Grigorova & Louis Kendem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/final-project-group/poodle-e-learning/issues"
+  },
+  "homepage": "https://gitlab.com/final-project-group/poodle-e-learning#readme",
+  "type": "module",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.4",
+    "@types/node": "^14.17.9",
+    "@types/passport": "^1.0.7",
+    "@types/passport-jwt": "^3.0.6",
+    "@types/sanitize-html": "^2.3.2",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^2.5.4",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.12",
+    "parse5": "^6.0.1",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "sanitize-html": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/helmet": "^4.0.0",
+    "@types/morgan": "^1.9.3",
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0"
+  }
+}
